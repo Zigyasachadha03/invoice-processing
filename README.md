@@ -16,16 +16,16 @@ This project utilizes a deep learning Convolutional Neural Network (CNN) to proc
 ## Usage
 
 1. Clone the repository:
-   '''
-   git clone git@github.com:Zigyasachadha03/invoice-processing.git
-   '''
+   ```
+   git clone https://github.com/Zigyasachadha03/invoice-processing.git
+   ```
    
 2. Install the required dependencies.
   
 3. Launch the application:
-   '''
+   ```
    python app.py
-   '''
+   ```
    
 4. Open your web browser.
 
@@ -35,8 +35,5 @@ This project utilizes a deep learning Convolutional Neural Network (CNN) to proc
 
 7. You have the option to view the extracted information online or download it in a CSV file.
 
-## Training the Model
-
-The model used in this project has been trained specifically for Amazon invoices. The training data was labeled using the labelImg tool, which generates XML files that are used to train the model.
 
 
