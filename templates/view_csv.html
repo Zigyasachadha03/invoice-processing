@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice Processing</title>
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="static/styles.css  ">
+</head>
+<body>
+    <header>
+        <h1>CSV Data</h1>
+    </header>
+    <main>
+        <table>
+            {% for row in csv_data %}
+            <tr></tr>
+            <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+            </tr>
+            
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            <tr></tr>
+            {% endfor %}
+        </table>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Invoice Processing</p>
+    </footer>
+</body>
+</html>

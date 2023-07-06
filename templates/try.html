@@ -1,0 +1,39 @@
+{% comment %} <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice Processing</title>
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="static/styles.css  ">
+</head>
+<body>
+    <header>
+        <h1>Invoice Processing</h1>
+    </header>
+    <main>
+        <form action="upload" method="POST" enctype="multipart/form-data">
+            <label for="invoice">Upload Invoice:</label>
+            <input type="file" name="invoice" id="invoice" accept=".jpg, .png, .pdf, .jpeg">
+            <button type="submit">Submit</button>
+        </form>
+        {% if output %}
+        <div>
+            <h2>Output:</h2>
+            <textarea rows="10" cols="50" name="output">{{ output }}</textarea>
+        </div>
+        <div>
+            <h2>CSV File:</h2>
+            <a href="{{ url_for('download_csv') }}" download>Download CSV</a>
+            <br>
+            <a href="{{ url_for('view_csv') }}" target="_blank">View CSV</a>
+        </div>
+        {% endif %}
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Invoice Processing</p>
+    </footer>
+</body>
+</html> {% endcomment %}

@@ -1,0 +1,86 @@
+<annotation>
+	<folder>output</folder>
+	<filename>invoice-5.jpg</filename>
+	<path>C:\Users\zigya\OneDrive\Desktop\Label_Img Text Detect\data\images\output\invoice-5.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1654</width>
+		<height>2339</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Company Name</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>127</xmin>
+			<ymin>8</ymin>
+			<xmax>633</xmax>
+			<ymax>108</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Name</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1353</xmin>
+			<ymin>645</ymin>
+			<xmax>1549</xmax>
+			<ymax>685</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Address</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1035</xmin>
+			<ymin>681</ymin>
+			<xmax>1555</xmax>
+			<ymax>791</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Item Description</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>157</xmin>
+			<ymin>1142</ymin>
+			<xmax>796</xmax>
+			<ymax>1286</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Item Amount</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1409</xmin>
+			<ymin>1201</ymin>
+			<xmax>1533</xmax>
+			<ymax>1266</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Total Amount</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1404</xmin>
+			<ymin>1369</ymin>
+			<xmax>1535</xmax>
+			<ymax>1408</ymax>
+		</bndbox>
+	</object>
+</annotation>
